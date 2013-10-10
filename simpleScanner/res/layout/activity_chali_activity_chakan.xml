@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/catchchulibackground"
+    tools:context=".ChaliActivity_chakan" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/actionbar" />
+
+    <Button
+        android:id="@+id/button_chakan_chuli"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/Chuliimageview_chakan"
+        android:layout_width="220dp"
+        android:layout_height="310dp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:maxHeight="360dp"
+        android:maxWidth="360dp"
+        android:scaleType="fitCenter" />
+
+    <Button
+        android:id="@+id/shanchu_chakan"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/wancheng_chakan"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/del" />
+
+    <SeekBar
+        android:id="@+id/duibiduseekbar_chakan"
+        android:layout_width="300px"
+        android:layout_height="60px"
+        android:layout_alignLeft="@+id/Chuliimageview_chakan"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/baoheduseekbar_chakan"
+        android:layout_marginTop="29dp"
+        android:max="127"
+        android:progress="63" />
+
+    <SeekBar
+        android:id="@+id/baoheduseekbar_chakan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/liangduseekbar_chakan"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Chuliimageview_chakan"
+        android:layout_marginTop="15dp"
+        android:max="200"
+        android:progress="100" />
+
+    <Button
+        android:id="@+id/wancheng_chakan"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/duibiduseekbar_chakan"
+        android:layout_toRightOf="@+id/button_chakan_chuli"
+        android:background="@drawable/save" />
+
+    <SeekBar
+        android:id="@+id/liangduseekbar_chakan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/duibiduseekbar_chakan"
+        android:layout_below="@+id/baoheduseekbar_chakan"
+        android:max="255"
+        android:progress="127" />
+
+</RelativeLayout>

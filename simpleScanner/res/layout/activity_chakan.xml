@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/viewphoto"
+    tools:context=".ChakanActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/actionbar" />
+
+    <GridView
+        android:id="@+id/gridchakan"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:gravity="center"
+        android:horizontalSpacing="1pt"
+        android:minHeight="1024dp"
+        android:minWidth="800dp"
+        android:numColumns="4"
+        android:verticalSpacing="1pt" >
+
+    </GridView>
+
+    <Button
+        android:id="@+id/button_chakan"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/back"/>
+
+</RelativeLayout>

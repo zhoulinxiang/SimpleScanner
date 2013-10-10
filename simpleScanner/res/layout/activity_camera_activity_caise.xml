@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/catchbackground"
+    tools:context=".CameraActivity_caise" >
+
+    <Button
+        android:id="@+id/xiayibu_caise"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/next" />
+
+    <Button
+        android:id="@+id/qidongxiangji_caise"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_above="@+id/xiayibu_caise"
+        android:layout_marginBottom="27dp"
+        android:layout_toRightOf="@+id/button_camera_caise"
+        android:background="@drawable/buhuo" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="280dp"
+        android:layout_height="390dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/button_camera_caise" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/actionbar" />
+
+    <Button
+        android:id="@+id/button_camera_caise"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/back" />
+
+</RelativeLayout>

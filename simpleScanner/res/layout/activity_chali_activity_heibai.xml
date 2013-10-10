@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@drawable/chuli2"
+    tools:context=".ChaliActivity_heibai" >
+
+
+    <SeekBar
+        android:id="@+id/liangduseekbar_heibai"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Chuliimageview_heibai"
+        android:layout_marginTop="28dp"
+        android:max="255"
+        android:progress="127" />
+
+    <Button
+        android:id="@+id/wancheng_heibai"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/liangduseekbar_heibai"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/save" />
+
+    <ImageView
+        android:id="@+id/Chuliimageview_heibai"
+        android:layout_width="220dp"
+        android:layout_height="310dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:maxHeight="360dp"
+        android:maxWidth="360dp"
+        android:scaleType="fitCenter" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/actionbar" />
+
+    <Button
+        android:id="@+id/shanchu_heibai"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginRight="37dp"
+        android:background="@drawable/del" />
+
+
+
+    <Button
+        android:id="@+id/button_chuli_heibai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/back" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">simple scanner</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_camera_activity_heibai">CameraActivity_heibai</string>
+    <string name="title_activity_camera_activity_caise">CameraActivity_caise</string>
+    <string name="title_activity_chakan">ChakanActivity</string>
+    <string name="title_activity_chali_activity_heibai">ChaliActivity_heibai</string>
+    <string name="title_activity_chuli_activity_caise">ChuliActivity_caise</string>
+    <string name="title_activity_chali_activity_chakan">ChaliActivity_chakan</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+
+</resources>

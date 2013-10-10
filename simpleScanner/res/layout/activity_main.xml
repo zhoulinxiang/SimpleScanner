@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backguound"
+    tools:context=".WelcomeActivity" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/actionbar" />
+
+    <Button
+        android:id="@+id/button_main_about"
+        android:layout_width="90px"
+        android:layout_height="90px"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/lookmore" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_toLeftOf="@+id/button_caise"
+        android:src="@drawable/line" />
+
+    <Button
+        android:id="@+id/button_caise"
+        android:layout_width="450px"
+        android:layout_height="140px"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/button_selector1" />
+
+    <Button
+        android:id="@+id/button_heibai"
+        android:layout_width="450px"
+        android:layout_height="140px"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button_caise"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/button_selector3" />
+
+    <Button
+        android:id="@+id/button_chakan"
+        android:layout_width="450px"
+        android:layout_height="140px"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button_heibai"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/button_selector2" />
+
+</RelativeLayout>
